@@ -4,7 +4,8 @@ describe('main()', () => {
 
     it('should calculate the remaindar', () => {
         expect(main.caclRemaindar(9, 3)).toBe(0);
-        expect(main.caclRemaindar(11, 4)).toBe(3);
+        var result = main.caclRemaindar(11, 4)
+        expect(result).toBe(3);
     });
 
     it('should calculate the sum of numbers which are in array', () => {
